@@ -1,0 +1,7 @@
+PGPASSWORD=j0rDmcPPQcNWTlBdawzTUGGYLrWKF43m psql -h dpg-cupeg7popnds7393hkgg-a.virginia-postgres.render.com -U mydb_p4tl_user mydb_p4tl
+postgresql://mydb_p4tl_user:j0rDmcPPQcNWTlBdawzTUGGYLrWKF43m@dpg-cupeg7popnds7393hkgg-a.virginia-postgres.render.com/mydb_p4tl
+postgresql://mydb_p4tl_user:j0rDmcPPQcNWTlBdawzTUGGYLrWKF43m@dpg-cupeg7popnds7393hkgg-a/mydb_p4tl
+j0rDmcPPQcNWTlBdawzTUGGYLrWKF43m
+mydb_p4tl_user
+mydb_p4tl
+5432

@@ -1,0 +1,44 @@
+{
+  "name": "cms-app",
+  "version": "0.1.0",
+  "private": true,
+
+    "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "prisma generate  && npx prisma db push && next start",
+  "lint": "next lint",
+  "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.7.4",
+    "@ckeditor/ckeditor5-build-classic": "^44.2.0",
+    "@ckeditor/ckeditor5-react": "^9.5.0",
+    "@prisma/client": "^6.3.1",
+    "@tiptap/extension-image": "^2.11.5",
+    "@tiptap/extension-link": "^2.11.5",
+    "@tiptap/pm": "^2.11.5",
+    "@tiptap/react": "^2.11.5",
+    "@tiptap/starter-kit": "^2.11.5",
+    "bcryptjs": "^3.0.0",
+    "ckeditor5": "^44.2.0",
+    "ckeditor5-premium-features": "^44.2.0",
+    "dompurify": "^3.2.4",
+    "lucide-react": "^0.475.0",
+    "next": "13.5.8",
+    "next-auth": "^4.24.11",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-syntax-highlighter": "^15.6.1",
+    "swiper": "^11.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.8",
+    "postcss": "^8",
+    "prisma": "^6.3.1",
+    "tailwindcss": "^3"
+  }
+}
