@@ -18,7 +18,7 @@ Follow these steps to set up the project on your local machine:
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone GITHUB_URL
+git clone https://github.com/sagar285/crm.git
 cd crm
 
 npm install 
